@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dropdown</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrapcdn.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrapcdn.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/._bootstrap-theme.min.css.map">
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Brand</a>
+                <button type="button" id="navbar_header_button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#">About Us</a> </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Features<span class="caret"></span> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a> </li>
+                            <li><a href="#">Account</a> </li>
+                            <li class="divider" role="separator"></li>
+                            <li class="dropdown-header">Settings</li>
+                            <li><a href="#">Password</a> </li>
+                            <li><a href="#">Logout</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</body>
+</html>
